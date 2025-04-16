@@ -88,13 +88,4 @@ class CustomerDao:
         finally:
             if connection.is_connected():
                connection.close()
-            print("Connection closed.")
-
-"""
-if __name__ == "__main__":
-    
-    # Add a new customer
-    new_customer = Customer(name="John", surname="Doe", membership=101)
-    CustomerDao.add_customer(new_customer)
-"""   
-   
+            print("Connection closed.")   

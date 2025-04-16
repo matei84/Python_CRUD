@@ -2,7 +2,7 @@ from Connection import Connection
 
 def create_table():
     create_table_query = """
-    CREATE TABLE IF NOT EXISTS customer1 (
+    CREATE TABLE IF NOT EXISTS customer (
         id INT NOT NULL AUTO_INCREMENT,
         name VARCHAR(50),
         surname VARCHAR(50),

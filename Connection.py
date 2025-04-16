@@ -1,7 +1,7 @@
 import mysql.connector
 
 class Connection:
-    DATABASE = 'zonaFit_db'
+    DATABASE = 'ExampleDB'
     USERNAME = 'root'
     PASSWORD = ''
     HOST = 'localhost'
